@@ -1,0 +1,97 @@
+@keyframes aurora {
+  from {
+    background-position: 50% 50%, 50% 50%;
+  }
+  to {
+    background-position: 350% 50%, 350% 50%;
+  }
+}
+
+.aurora-animation {
+  animation: aurora 60s linear infinite;
+}
+
+
+:root {
+  --gray-200: #e5e7eb; 
+  --primary-color: #1d4ed8; 
+}
+
+.project{
+  padding: 20px;
+}
+
+.Heading{
+  text-align: center;
+  color: transparent;
+  background: linear-gradient(to left, #12be29, #eb5ae1); 
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  margin-bottom: 50px;
+}
+span{
+  color: transparent;
+  -webkit-background-clip: text; 
+  background-clip: text; 
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  text-align: center;
+  background: cover;
+  overflow: hidden;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 10%;
+  box-shadow: 0px 0px 10px 10px rgb(101, 101, 213);
+  background-color: rgb(243, 157, 96);
+  
+ }
+
+ .child{
+  padding-top: 100px;
+ }
+
+ img{
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 10px rgb(101, 101, 249);
+  transition: transform 0.3s ease;
+ }
+ img:hover{
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+ }
+
+
+ h3{
+  color: rgb(110, 107, 107);
+  font-size: 40px;
+  font-family:'Courier New', Courier, monospace
+
+ }
+
+ h3:hover{
+  color: rgb(101, 101, 241);
+  transform: scale(1.05);
+  transition-duration: 0.5;
+
+ }
+
+
+ h3:hover::after{
+  animation-duration: 1.5ms;
+  --tw-scale-x: .5;
+  --tw-scale-y: .5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) 
+ }
+
+@media (max-width:720px){
+  .cards{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .cards .child img{
+    width: 200px;
+  }
+}
+ 

@@ -1,0 +1,168 @@
+
+figure{
+  padding: 20px;
+  border-radius: 10%;
+}
+
+.toper{
+  background-color: #ff9e59;
+  border-radius: 20%;
+  box-shadow: 0px 0px 10px 10px #f97316;
+  padding: 12px;
+}
+
+.par{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.Heading{
+  text-align: center;
+  color: transparent;
+  background: linear-gradient(to left, #12be29, #eb5ae1); 
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  margin-bottom: 50px;
+  font-size: 100px;
+}
+span{
+  color: transparent;
+  background: linear-gradient(to left, #da1818, #1e25f9); 
+  -webkit-background-clip: text; 
+  background-clip: text; 
+}
+
+
+p{
+  text-align: end;
+  font-size: 40px;
+  color: black;
+}
+
+.line-heading{
+  font-size: 40px;
+  color: transparent;
+  background: linear-gradient(to left, #da1818, #1e25f9); 
+  -webkit-background-clip: text; 
+  background-clip: text; 
+}
+
+.line-throug{
+  height: 15px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 5px rgb(223, 104, 158);
+}
+
+.line{
+  max-width: 90%;
+  background: linear-gradient(to left, #da1818, #1e25f9); 
+  height: 15px;
+  border-radius: 20px;
+}
+
+.check{
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.line-throug2{
+  height: 15px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 5px rgb(223, 104, 158);
+}
+
+.line2{
+  max-width: 85%;
+  background: linear-gradient(to left, #da1818, #1e25f9); 
+  height: 15px;
+  border-radius: 20px;
+}
+
+
+.line-throug3{
+  height: 15px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 5px rgb(223, 104, 158);
+}
+
+.line3{
+  max-width: 95%;
+  background: linear-gradient(to left, #da1818, #1e25f9); 
+  height: 15px;
+  border-radius: 20px;
+}
+
+.line-throug4{
+  height: 15px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 5px rgb(223, 104, 158);
+}
+
+.line4{
+  max-width: 75%;
+  background: linear-gradient(to left, #da1818, #1e25f9); 
+  height: 15px;
+  border-radius: 20px;
+}
+
+
+.line-throug5{
+  height: 15px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 5px rgb(223, 104, 158);
+}
+
+.line5{
+  max-width: 80%;
+  background: linear-gradient(to left, #da1818, #1e25f9); 
+  height: 15px;
+  border-radius: 20px;
+} 
+
+.flx{
+  display: flex;
+  justify-content:space-between;
+  justify-items:center;
+}
+
+
+@media (max-width: 720px) {
+
+
+  p{
+    width: 2px;
+  }
+
+  figure{
+    margin-top: 30rem;
+  }
+
+  .Heading {
+    font-size: 30px; 
+  }
+
+  .check {
+    max-width: 90%; 
+  }
+
+  p {
+    font-size: 20px; 
+  }
+
+  .line-heading {
+    font-size: 20px;
+  }
+
+  .line-throug, .line-throug2, .line-throug3, .line-throug4, .line-throug5 {
+    height: 10px; 
+  }
+
+  .line, .line2, .line3, .line4, .line5 {
+    height: 10px; 
+  }
+}
