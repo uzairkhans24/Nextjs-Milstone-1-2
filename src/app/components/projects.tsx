@@ -38,35 +38,35 @@ function Projects() {
 
 
         <div className="child">
-          <Link href={"https://e-commerce-website-inky-six.vercel.app/"}>
-          <Image src={"/figma.png"} height={300} width={300} alt="logo"></Image>
-          <h3>E-commerce Website</h3>
+          <Link href={"#"}>
+          <Image src={"/Project_05.jpg"} height={300} width={300} alt="logo"></Image>
+          <h3>Html Css Website</h3>
           </Link>
         </div>
 
 
         <div className="child animate-bounce">
 
-        <Link href={"https://music-website-beta.vercel.app"}>
-          <Image src={"/music.png"} height={300} width={300} alt="logo"></Image>
-          <h3>Music-website</h3>
+        <Link href={"https://hackathon-milstone-1.netlify.app/"}>
+          <Image src={"/static.jpg"} height={300} width={300} alt="logo"></Image>
+          <h3>Static Resume</h3>
           </Link>
        
         </div>
 
 
         <div className="child ">
-        <Link href={"https://flow-chart-2q98.vercel.app"}>
-          <Image src={"/flow.png"} height={300} width={300} alt="logo"></Image>
-          <h3>Flow-chart</h3>
+        <Link href={"https://my-milestone-3.netlify.app/"}>
+          <Image src={"/dynamic.jpg"} height={300} width={300} alt="logo"></Image>
+          <h3>Dynamic Resume</h3>
           </Link>
         </div>
 
 
         <div className="child">
-        <Link href={"hackathone-a2wn.vercel.app"}>
-          <Image src={"/resume.png"} height={300} width={300} alt="logo"></Image>
-          <h3>Resume Builder</h3>
+        <Link href={"#"}>
+          <Image src={"/Project_02.jpg"} height={300} width={300} alt="logo"></Image>
+          <h3>Calculator</h3>
           </Link>
         </div>
 
